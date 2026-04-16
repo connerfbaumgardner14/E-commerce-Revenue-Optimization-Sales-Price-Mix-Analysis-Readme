@@ -36,7 +36,7 @@ Two factors were found to partially account for the high concentration of unit s
 # Recommendations  
 Based on the insights and findings above, we would recommend the ecommerce team to consider the following:
 
-**\- Suggestion 1**  
+#### **\- Suggestion 1**  
 Only 24% of items were above $4, therefore we could sell additional products above $4 based on additional research on customer demand / needs. Because of the higher prices of these items, we wouldn’t need to add a lot of new products in order to significantly increase revenue. 
 
 **\- Suggestion 2**  
