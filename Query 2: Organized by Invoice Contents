@@ -1,0 +1,43 @@
+-- QUERY 2
+
+-- Data Cleaning
+WITH EcomTable AS (SELECT
+	Distinct InvoiceNo, 
+	SUM(Quantity) AS SumQuantity, 
+	Sum(CASE When UnitPrice >4 then `Quantity` else 0 END) AS NumOfUnitsAbove4Dollars,
+    Sum(CASE When UnitPrice <=4 then `Quantity` else 0 END) AS NumOfUnitsBelow4Dollars,
+    SUM(UnitPrice * Quantity) AS SumRevenue,
+    SUM(CASE When UnitPrice > 4 then (UnitPrice * Quantity) else 0 END) AS RevenueTotalAbove4Dollars,
+    SUM(CASE When UnitPrice <= 4 then UnitPrice * Quantity else 0 END) AS RevenueTotalBelow4Dollars
+FROM
+	SalesData.`2010_2011_online_retail_sales`
+WHERE InvoiceNo NOT LIKE '%A%'
+	AND StockCode NOT LIKE 'M'
+    AND StockCode NOT LIKE 'POST'
+	AND UnitPrice NOT LIKE 0
+	AND 
+		CASE WHEN Quantity LIKE '%-%'
+			AND InvoiceNo NOT LIKE '%C%'
+			THEN  null
+			ELSE Quantity and UnitPrice
+			END
+GROUP BY
+	InvoiceNo
+)
+
+-- Main Query 2: Organized by Invoice Contents
+Select 
+	InvoiceNo, 
+    SumQuantity,
+	NumOfUnitsAbove4Dollars,
+	NumOfUnitsBelow4Dollars,
+    SumRevenue,
+	RevenueTotalAbove4Dollars,
+	RevenueTotalBelow4Dollars,
+    CASE WHEN NumOfUnitsAbove4Dollars > 0 AND NumOfUnitsBelow4Dollars = 0 THEN 'NoUnitsBelow4Dollars'
+		WHEN NumOfUnitsAbove4Dollars < 0 OR NumOfUnitsBelow4Dollars < 0 OR InvoiceNo like '%C%'  Then 'Return' 
+		WHEN NumOfUnitsAbove4Dollars = 0 AND NumOfUnitsBelow4Dollars > 0 THEN 'NoUnitsAbove4Dollars' 
+        ELSE 'Mix' END AS `InvoiceOrderDisturbution` 
+        
+From EcomTable
+ORDER BY InvoiceNo DESC;
