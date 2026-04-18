@@ -10,7 +10,7 @@ SELECT
 	SUM(UnitPrice * Quantity) AS RevenueTotal, 
 	SUM(UnitPrice * Quantity) / SUM(Quantity) AS AveragePrice
 FROM
-	penguins.`2010_2011_online_retail_sales`
+	SalesData.`2010_2011_online_retail_sales`
 WHERE InvoiceNo NOT LIKE '%A%'
 	AND StockCode NOT LIKE 'M'
     AND StockCode NOT LIKE 'POST'
