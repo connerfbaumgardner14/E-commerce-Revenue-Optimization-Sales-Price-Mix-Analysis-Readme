@@ -1,0 +1,43 @@
+-- QUERY 1
+
+-- Data Cleaning
+WITH SalesDetails AS 
+(
+SELECT
+	Distinct StockCode, 
+	group_concat(distinct `Description`) AS `Description`, 
+	Sum(Quantity) AS NumberOfUnitsSold, 
+	SUM(UnitPrice * Quantity) AS RevenueTotal, 
+	SUM(UnitPrice * Quantity) / SUM(Quantity) AS AveragePrice
+FROM
+	penguins.`2010_2011_online_retail_sales`
+WHERE InvoiceNo NOT LIKE '%A%'
+	AND StockCode NOT LIKE 'M'
+    AND StockCode NOT LIKE 'POST'
+	AND UnitPrice NOT LIKE 0
+	AND 
+		CASE
+			WHEN Quantity LIKE '%-%'
+			AND InvoiceNo NOT LIKE '%C%'
+			THEN  null
+			ELSE Quantity and UnitPrice
+			END
+GROUP BY
+	Stockcode
+HAVING 
+	NumberOfUnitsSold not like '%-%' AND AveragePrice <> 0
+    )
+-- Main Query 1: Organized by Item
+SELECT 
+	substring_index(`Description`,',',1) AS Description_,
+    NumberOfUnitsSold,
+    RevenueTotal,
+    AveragePrice,
+	DENSE_RANK() OVER (ORDER BY NumberOfUnitsSold DESC) AS Rank_NumberOfUnitsSold,
+	DENSE_RANK() OVER (ORDER BY RevenueTotal DESC) AS Rank_RevenueTotal,
+	DENSE_RANK() OVER (ORDER BY AveragePrice DESC) AS Rank_AveragePrice
+FROM 
+	SalesDetails
+
+Order by RevenueTotal DESC
+;
