@@ -1,7 +1,7 @@
-Project Abstract  
+# Project Abstract  
 A sales price mix analysis was conducted for Royal Bounties Supply Co. to identify opportunities in the item price sales mix to increase overall revenue through purchases via their website. Items under $4 account for 90% of unit sales and 65% of revenue, while items over $4 contribute 35% of total revenue from only 10% of unit sales, indicating a potential for increased revenue by boosting sales in the higher-priced segment. Recommendations to address this include expanding the higher-priced product catalog, using "Best Seller" labels to drive unit sales, and implementing a "suggested items" feature to promote items over $4 to returning customers who typically buy lower-priced goods.
 
-Background  
+# Background  
 Royal Bounties Supply Co.\* is a newly founded UK based online distributor that specializes in selling “unique all-occassion gifts” to wholesalers via their website. It is partially owned by a venture capital firm called G.R.Q. Enterprises that is primarily investing in the company. The firm is currently not as worried about profit but more concerned about quickly growing the company’s value through increased revenue. The ecommerce team is interested in increasing overall revenue through finding opportunities in the item price sales distribution / mix. They have asked me to analyze sales from the last 20 months and present various options for next steps to the President and Vice-President of Ecommerce. 
 
 \- The SQL queries used to inspect and clean the data for this analysis can be found here \[link\].   
