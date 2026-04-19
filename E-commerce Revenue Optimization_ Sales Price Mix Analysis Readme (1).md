@@ -6,7 +6,7 @@ Royal Bounties Supply Co.\* is a newly founded UK based online distributor that 
 
 \- The SQL queries used to inspect and clean the data and target various business questions for this analysis can be found here: 
 [[Query 1: Organized by Item](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%201%3A%20Organized%20by%20Item)\]   
-[https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%202%3A%20Organized%20by%20Invoice%20Contents]
+[https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/a2769438d03f3b410e136c5046a3121af25df9e5/Query%202%3A%20Organized%20by%20Invoice%20Contents]
 \- The Tableau dashboard used to report and explore sales trends can be found here \[link\].
 
 \* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual company between 01/12/2010 and 09/12/2011 for a UK-based company.
