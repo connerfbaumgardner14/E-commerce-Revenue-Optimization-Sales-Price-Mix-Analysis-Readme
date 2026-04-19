@@ -10,7 +10,7 @@ Royal Bounties Supply Co.\* is a newly founded UK based online distributor that 
 
 \* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual company between 01/12/2010 and 09/12/2011 for a UK-based company.
 
-Data Structure Overview  
+# Data Structure Overview  
 The company's main database structure as seen below consists of one table. There were \_ rows in the data that was analyzed. 
 
 | Variable Name | Role | Type | Description |
@@ -24,7 +24,7 @@ The company's main database structure as seen below consists of one table. There
 | CustomerID | Feature | Categorical | a 5-digit integral number uniquely assigned to each customer |
 | Country | Feature | Categorical | the name of the country where each customer resides |
 
-General Insights   
+# General Insights   
 90% of unit sales (Fig. 1\) and 65% of revenue (Fig. 2\) came from items under $4, indicating an opportunity to potentially increase revenue by focusing attention on increasing sales on items over $4. While items over $4 constituted only 10% of sales (Fig 1.), they made up 35% of revenue (Fig. 2), showcasing that a small increase of unit sales of items over $4 could impact revenue by a significant amount.
 
 Two factors were found to partially account for the high concentration of unit sales in the under $4 category.
@@ -36,37 +36,37 @@ Two factors were found to partially account for the high concentration of unit s
 Recommendations  
 Based on the insights and findings above, we would recommend the ecommerce team to consider the following:
 
-**\- Suggestion 1**  
+### **\ Suggestion 1**  
 Only 24% of items were above $4, therefore we could sell additional products above $4 based on additional research on customer demand / needs. Because of the higher prices of these items, we wouldn’t need to add a lot of new products in order to significantly increase revenue. 
 
-**\- Suggestion 2**  
+### **\Suggestion 2**  
 Units priced above $4 only account To increase the unit sales of products priced above $4 (which currently account for only 10% of total unit sales), we recommend labeling certain items above $4 as "Best Seller" and incorporating strong customer testimonials. Customers are more likely to adopt behaviors when they perceive others, especially peers, doing so.  and labeling items as “Bestseller” has been shown to increase sales1. We could utilize customer surveys and market research to create a strategy and A/B testing to check and verify effectiveness.  . 
 
-**\- Suggestion 3**  
+### **\Suggestion 3**  
 To address the fact that 20% of invoices exclude items over $4, we recommend implementing the research-backed “Foot-In-The-Door” technique. This sales tactic “...consists in proposing a little first request to a subject then to submit him/her a second more expensive request”2. To apply this strategy, we could program the "suggested items" section towards the bottom of an item description to promote products priced at $4 or more to returning customers who typically purchase lower-priced goods. Suggestions should feature a balance of items similar to past purchases and new, higher-priced items related to their current transaction.
 
-**\- Suggestion 4**  
+### **\Suggestion 4**  
 When preparing the analysis, the goal was to check which item categories generated the most revenue to guide decisions. However, item categories are not currently logged in the data structure. Categorizing each item and applying those categories to the product list is recommended to better understand the sales mix. Once that's done, a follow-up analysis specifically on category sales mix is recommended.
 
-Caveats  
+# Caveats  
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below: 
 
-**\- Assumption 1:**   
+### **\Assumption 1:**   
 A total of 135,080 rows (approximately one-fifth of all transactions) contained blank values in the Customer ID column. These entries were retained to ensure the inclusion of all genuine transactions for analytic purposes. Given this significant absence of customer identifiers, the analysis was restricted to an item and transaction-centered perspective to avoid potentially misleading customer-specific findings.
 
-\- **Assumption 2**:   
+### \**Assumption 2**:   
  There were 9288 rows determined to be returns/cancellations and were included in the analysis to help not count items that were returned. They were subtracted from the grand total when items were summed together to ensure that the final sum accurately reflected net sales and items sold. 
 
-**\- Assumption 3**  
+### **\Assumption 3**  
 Given that item prices fluctuate between individual orders, items were aggregated by calculating the average price to facilitate analysis of pricing trends. It is important to note, however, that the total revenue calculation is based on the actual sum of revenue, not on the sum of the average unit prices. 
 
-**\- Assumption 4**  
+### **\Assumption 4**  
 There were 135,080 with blank spaces in CustomerID Column. These were not removed as they still represent genuine transactions and would still support goals listed above. Data was not grouped by transactions for any analysis as it felt pointless to do that while not having a significant chunk of 
 
-**\- Additional Assumptions and Caveats**  
+### **\Additional Assumptions and Caveats**  
 For more information on the assumptions used and specific data-cleaning / data organization decisions made please see the following: 
 
-Works Cited  
+# Works Cited  
 1\. “Bestseller Lists and the Economics of Product Discovery.” Annual Review of Economics, Apr. 2017, pp. 89–93. [users.ssc.wisc.edu/\~atsorensen/papers/bestseller\_lists\_annreview.pdf](http://users.ssc.wisc.edu/~atsorensen/papers/bestseller_lists_annreview.pdf).
 
 2\. Gue, Guen, guen and Universite de Bretagne-Sud, IUT de Vannes—Département TC, Laboratoire GRESICO. “Foot-in-the-door Technique and Computer-mediated Communication.” Computers in Human Behavior, vol. 18–18, 2002, pp. 11\. [www.communicationcache.com/uploads/1/0/8/8/10887248/foot-in-the-door\_technique\_and\_computer-mediated\_communication.pdf](http://www.communicationcache.com/uploads/1/0/8/8/10887248/foot-in-the-door_technique_and_computer-mediated_communication.pdf).  
