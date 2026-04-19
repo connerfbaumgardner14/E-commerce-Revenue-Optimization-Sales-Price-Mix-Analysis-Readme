@@ -5,7 +5,6 @@ A sales price mix analysis was conducted for Royal Bounties Supply Co. to identi
 Royal Bounties Supply Co.\* is a newly founded UK based online distributor that specializes in selling “unique all-occassion gifts” to wholesalers via their website. It is partially owned by a venture capital firm called G.R.Q. Enterprises that is primarily investing in the company. The firm is currently not as worried about profit but more concerned about quickly growing the company’s value through increased revenue. The ecommerce team is interested in increasing overall revenue through finding opportunities in the item price sales distribution / mix. They have asked me to analyze sales from the last 20 months and present various options for next steps to the President and Vice-President of Ecommerce. 
 
 \- The SQL queries used to inspect and clean the data and target various business questions for this analysis can be found here: 
-
 \- [[Query 1: Organized by Item](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%201%3A%20Organized%20by%20Item)\]   
 \- [Query 2: Organized by Invoice Contents](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/a2769438d03f3b410e136c5046a3121af25df9e5/Query%202%3A%20Organized%20by%20Invoice%20Contents)\]
 \- The Tableau dashboard used to report and explore sales trends can be found here [].
