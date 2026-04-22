@@ -57,7 +57,7 @@ Throughout the analysis, multiple assumptions were made to manage challenges wit
 ### **Assumption 1:**   
 A total of 135,080 rows (approximately one-fifth of all transactions) contained blank values in the Customer ID column. These entries were retained to ensure the inclusion of all genuine transactions for analytic purposes. Given this significant absence of customer identifiers, the analysis was restricted to an item and transaction-centered perspective to avoid potentially misleading customer-specific findings.
 
-### **Assumption 2**:   
+### **Assumption 2**
  There were 9288 rows determined to be returns/cancellations and were included in the analysis to help not count items that were returned. They were subtracted from the grand total when items were summed together to ensure that the final sum accurately reflected net sales and items sold. 
 
 ### **Assumption 3**  
