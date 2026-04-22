@@ -28,11 +28,13 @@ The company's main database structure as seen below consists of one table. There
 # Executive Summary 
 < Items under $4 account for 90% of unit sales, but the higher revenue per item from goods over $4, which constitute 35% of total revenue from just 10% of unit sales, presents a significant opportunity to increase overall revenue. This current focus on lower-priced items is partially due to the current limited customer interest and a limited number of higher priced products, as only 24% of unique products are priced above the $4 mark. 
 # General Insights 
-< 90% of unit sales (Fig. 1) and 65% of revenue (Fig. 2) came from items under $4, indicating an opportunity to potentially increase revenue by focusing attention on increasing sales on items over $4. While items over $4 constituted only 10% of sales (Fig 1.), they made up 35% of revenue (Fig. 2), showcasing that a small increase of unit sales of items over $4 could impact revenue by a significant amount.
-< One of the reasons for this high concentration of sales for low cost items is that over 20% of invoices did not contain items $4 or more, while only 4% of invoices did not contain items $4 or less (Fig. 3). Showcasing that, currently, customers seem to express less interest in our higher cost items compared to our lower cost items. 
-< However, we currently do not give our customers as many options that are above $4 as only 24% of the unique products offered are priced over $4 (Fig. 4). We may potentially be missing out in sales for customers looking for more expensive products (though more research on this is needed to confirm this). 
-< Despite low sales of more products above $4, products in the $4 to $14 range tend to yield an average revenue per item that is comparable to or greater than items under $4 (Fig. 5). Showcasing an opportunity where just increasing our sale of products above $4 by just a bit could amount to a significant revenue increase.
+90% of unit sales (Fig. 1) and 65% of revenue (Fig. 2) came from items under $4, indicating an opportunity to potentially increase revenue by focusing attention on increasing sales on items over $4. While items over $4 constituted only 10% of sales (Fig 1.), they made up 35% of revenue (Fig. 2), showcasing that a small increase of unit sales of items over $4 could impact revenue by a significant amount.
 
+One of the reasons for this high concentration of sales for low cost items is that over 20% of invoices did not contain items $4 or more, while only 4% of invoices did not contain items $4 or less (Fig. 3). Showcasing that, currently, customers seem to express less interest in our higher cost items compared to our lower cost items. 
+
+However, we currently do not give our customers as many options that are above $4 as only 24% of the unique products offered are priced over $4 (Fig. 4). We may potentially be missing out in sales for customers looking for more expensive products (though more research on this is needed to confirm this). 
+
+Despite low sales of more products above $4, products in the $4 to $14 range tend to yield an average revenue per item that is comparable to or greater than items under $4 (Fig. 5). Showcasing an opportunity where just increasing our sale of products above $4 by just a bit could amount to a significant revenue increase.
 
 ![][image1]  
 # Recommendations  
