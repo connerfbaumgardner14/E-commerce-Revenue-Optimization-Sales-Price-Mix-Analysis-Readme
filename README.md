@@ -4,9 +4,9 @@ A sales price mix analysis was conducted for Royal Bounties Supply Co. to identi
 # Background  
 Royal Bounties Supply Co.\* is a newly founded UK based online distributor that specializes in selling “unique all-occassion gifts” to wholesalers via their website. It is partially owned by a venture capital firm called G.R.Q. Enterprises that is primarily investing in the company. The firm is currently not as worried about profit but more concerned about quickly growing the company’s value through increased revenue. The ecommerce team is interested in increasing overall revenue through finding opportunities in the item price sales distribution / mix. They have asked me to analyze sales from the last 20 months and present various options for next steps to the President and Vice-President of Ecommerce. 
 
-\- The SQL queries used to inspect and clean the data for this analysis can be found here \[link\].   
-\- Targeted SQL queries regarding various business questions can be found here \[link\].   
-\- The Tableau dashboard used to report and explore sales trends can be found here \[link\].
+\- The SQL queries used to inspect and clean the data for this analysis can be found here [Query 1: Organized by Item](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%201%3A%20Organized%20by%20Item).   
+\- Targeted SQL queries regarding various business questions can be found here [Query 2:Organized by Invoice Contents](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%202%3A%20Organized%20by%20Invoice%20Contents).   
+\- The Tableau dashboard used to report and explore sales trends can be found here [Price Mix Sales Dashboard](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Ecom%20Sales%20Dashboard.png).
 
 \* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual company between 01/12/2010 and 09/12/2011 for a UK-based company.
 
@@ -35,6 +35,8 @@ One of the reasons for this high concentration of sales for low cost items is th
 However, we currently do not give our customers as many options that are above $4 as only 24% of the unique products offered are priced over $4 (Fig. 4). We may potentially be missing out in sales for customers looking for more expensive products (though more research on this is needed to confirm this).   
 
 Despite low sales of more products above $4, products in the $4 to $14 range tend to yield an average revenue per item that is comparable to or greater than items under $4 (Fig. 5). Showcasing an opportunity where just increasing our sale of products above $4 by just a bit could amount to a significant revenue increase.  
+
+![Alt Text](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Ecom%20Sales%20Dashboard.png)
 
 # Recommendations  
 Based on the insights and findings above, we would recommend the ecommerce team to consider the following:
