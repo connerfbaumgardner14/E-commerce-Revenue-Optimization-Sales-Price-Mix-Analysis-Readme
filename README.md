@@ -39,7 +39,7 @@ However, we currently do not give our customers as many options that are above $
 
 Despite low sales of more products above $4, products in the $4 to $14 range tend to yield an average revenue per item that is comparable to or greater than items under $4 *(Fig. 5)*. Showcasing an opportunity where just increasing our sale of products above $4 by just a bit could amount to a significant revenue increase.  
 
-![Sales Price Mix Dashboard]([https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Ecom%20Sales%20Dashboard.png](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Sales%20Price%20Mix%20Dashboard.png))
+![Sales Price Mix Dashboard](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Sales%20Price%20Mix%20Dashboard.png)
 
 # Recommendations  
 Based on the insights and findings above, we would recommend the ecommerce team to consider the following:
