@@ -8,8 +8,8 @@ The original dataset can be found at the link below:
   - https://archive.ics.uci.edu/dataset/352/online+retail
 
 The SQL queries used to inspect, clean and target various buisness questions the data for this analysis can be found here:
-  - [Query 1: Organized by Item](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%201%3A%20Organized%20by%20Item).   
-  - [Query 2:Organized by Invoice Contents](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%202%3A%20Organized%20by%20Invoice%20Contents).   
+  - [Query 1: Organized by Item](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%201%3A%20Organized%20by%20Item)
+  - [Query 2:Organized by Invoice Contents](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%202%3A%20Organized%20by%20Invoice%20Contents)
 
 \* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual UK-based company between 01/12/2010 and 09/12/2011.
 
