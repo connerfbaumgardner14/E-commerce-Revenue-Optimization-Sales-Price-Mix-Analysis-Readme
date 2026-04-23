@@ -71,7 +71,6 @@ Given that item prices fluctuate between individual orders, items were aggregate
 ### **Additional Assumptions and Caveats**  
 For more information on the assumptions used and specific data-cleaning / data organization decisions made please see the following: 
 
-# Works Cited  
 [^1]: “Bestseller Lists and the Economics of Product Discovery.” Annual Review of Economics, Apr. 2017, pp. 89–93. [users.ssc.wisc.edu/\~atsorensen/papers/bestseller\_lists\_annreview.pdf](http://users.ssc.wisc.edu/~atsorensen/papers/bestseller_lists_annreview.pdf).
 
 [^2]: Gue, Guen, guen and Universite de Bretagne-Sud, IUT de Vannes—Département TC, Laboratoire GRESICO. “Foot-in-the-door Technique and Computer-mediated Communication.” Computers in Human Behavior, vol. 18–18, 2002, pp. 11\. [www.communicationcache.com/uploads/1/0/8/8/10887248/foot-in-the-door\_technique\_and\_computer-mediated\_communication.pdf](http://www.communicationcache.com/uploads/1/0/8/8/10887248/foot-in-the-door_technique_and_computer-mediated_communication.pdf).  
