@@ -11,7 +11,7 @@ The SQL queries used to inspect, clean and target various buisness questions the
   - [Query 1: Organized by Item](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%201%3A%20Organized%20by%20Item).   
   - [Query 2:Organized by Invoice Contents](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Query%202%3A%20Organized%20by%20Invoice%20Contents).   
 
-\* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual company between 01/12/2010 and 09/12/2011 for a UK-based company.
+\* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual UK-based company between 01/12/2010 and 09/12/2011.
 
 # Data Structure Overview  
 The company's main database structure as seen below consists of one table. There were \_ rows in the data that was analyzed. 
