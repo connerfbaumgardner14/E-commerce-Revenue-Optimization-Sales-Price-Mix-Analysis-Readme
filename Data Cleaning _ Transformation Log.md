@@ -1,4 +1,4 @@
-**Data Cleaning Log:**
+# **Data Cleaning Log:**
 
 | Ticket \# | Issue | Status | Action Taken Summary | Action Taken Description |
 | :---- | :---- | :---- | :---- | :---- |
