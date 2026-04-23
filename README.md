@@ -70,6 +70,7 @@ Given that item prices fluctuate between individual orders, items were aggregate
 
 ### **Additional Assumptions and Caveats**  
 For more information on the assumptions used and specific data-cleaning / data organization decisions made please see the following: 
+- [Data Cleaning & Transformation Log](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Data%20Cleaning%20_%20Transformation%20Log.md)
 
 [^1]: “Bestseller Lists and the Economics of Product Discovery.” Annual Review of Economics, Apr. 2017, pp. 89–93. [users.ssc.wisc.edu/\~atsorensen/papers/bestseller\_lists\_annreview.pdf](http://users.ssc.wisc.edu/~atsorensen/papers/bestseller_lists_annreview.pdf).
 
