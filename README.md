@@ -37,7 +37,7 @@ One of the reasons for this high concentration of sales for low cost items is th
 
 However, we currently do not give our customers as many options that are above $4 as only 24% of the unique products offered are priced over $4 *(Fig. 4)*. We may potentially be missing out in sales for customers looking for more expensive products (though more research on this is needed to confirm this).   
 
-Despite low sales of more products above $4, products in the $4 to $14 range tend to yield an average revenue per item that is comparable to or greater than items under $4 *(Fig. 5)*. Showcasing an opportunity where just increasing our sale of products above $4 by just a bit could amount to a significant revenue increase.  
+Despite low sales of more products above $4, products in the $4 to $14 range tend to yield an average revenue per item that is comparable to or greater than items under $4 *(Fig. 5)*. Further showcasing an opportunity where just increasing our sale of products above $4 by just a bit could amount to a significant revenue increase.  
 
 ![Sales Price Mix Dashboard](https://github.com/connerfbaumgardner14/E-commerce-Revenue-Optimization-Sales-Price-Mix-Analysis-Readme/blob/main/Sales%20Price%20Mix%20Dashboard.png)
 
