@@ -14,7 +14,7 @@ The SQL queries used to inspect, clean and target various buisness questions the
 \* Royal Bounties Supply Co. and G.R.Q  are both fictional entities. The situation above is fictional and meant to help add context and direction to the analysis provided. The dataset used for this is donated data from an actual UK-based company between 01/12/2010 and 09/12/2011.
 
 # Data Structure Overview  
-The company's main database structure as seen below consists of one table. There were \_ rows in the data that was analyzed. 
+The company's main database structure as seen below consists of one table. There were 541,909 rows in the data that was analyzed. 
 
 | Variable Name | Role | Type | Description |
 | ----- | ----- | ----- | ----- |
